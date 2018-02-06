@@ -118,6 +118,12 @@ Canvas:
   m_PrefabParentObject: {fileID: 223199631279222306, guid: 2573be9b3aaa4465fa2cd382590f87ec,
     type: 2}
   m_PrefabInternal: {fileID: 1598062737}
+--- !u!114 &253719404 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114394570136121386, guid: eccad7ff870aa47f28c62161138a64f4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1629915172}
+  m_Script: {fileID: 11500000, guid: ea1988ca11d1142389640435da7ef54a, type: 3}
 --- !u!1 &475098786
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,8 +318,7 @@ Prefab:
         type: 2}
       propertyPath: cellPrefab
       value: 
-      objectReference: {fileID: 114844878835801532, guid: eccad7ff870aa47f28c62161138a64f4,
-        type: 2}
+      objectReference: {fileID: 253719404}
     - target: {fileID: 114036226351050746, guid: 2573be9b3aaa4465fa2cd382590f87ec,
         type: 2}
       propertyPath: gridCanvas
