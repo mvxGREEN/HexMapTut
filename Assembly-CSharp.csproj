@@ -51,7 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Components\HexCell.cs" />
+     <Compile Include="Assets\Scripts\HexCell.cs" />
+     <Compile Include="Assets\Scripts\HexGrid.cs" />
      <Compile Include="Assets\Scripts\HexMetrics.cs" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
