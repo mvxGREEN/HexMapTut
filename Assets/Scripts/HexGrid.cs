@@ -12,11 +12,13 @@ public class HexGrid : MonoBehaviour {
 
 	public Text cellLabelPrefab;
 
-	Canvas gridCanvas;
+	public Canvas gridCanvas;
 
 	HexCell[] cells;
 
 	void Awake () {
+		gridCanvas = GetComponentInChildren<Canvas>();
+
 		cells = new HexCell[height * width];
 
 		for (int z = 0, i = 0; z < height; z++) {
@@ -24,8 +26,7 @@ public class HexGrid : MonoBehaviour {
 				CreateCell(x, z, i++);
 			}
 		}
-
-		gridCanvas = GetComponentInChildren<Canvas>();
+			
 	}
 
 	void CreateCell (int x, int z, int i) {
