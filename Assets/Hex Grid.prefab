@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33538116615149936}
   - component: {fileID: 64861980264081228}
   - component: {fileID: 23620867417056422}
-  - component: {fileID: 114036226351050746}
+  - component: {fileID: 114698053909937670}
   m_Layer: 0
   m_Name: Hex Grid
   m_TagString: Untagged
@@ -116,21 +116,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114036226351050746
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1628700524085140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 838c32afd35ff42ccb5630933c9f63f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 6
-  height: 6
-  cellPrefab: {fileID: 0}
-  cellLabelPrefab: {fileID: 0}
 --- !u!114 &114095141795390392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -152,6 +137,17 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 10
+--- !u!114 &114698053909937670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1628700524085140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d3de04c7eaa4677adc5cb5e120ecef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!223 &223199631279222306
 Canvas:
   m_ObjectHideFlags: 1

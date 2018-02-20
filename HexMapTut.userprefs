@@ -1,8 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HexGrid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HexCoordinates.cs">
     <Files>
-      <File FileName="Assets/Scripts/HexGrid.cs" Line="4" Column="22" />
+      <File FileName="Assets/Scripts/HexCell.cs" Line="4" Column="36" />
+      <File FileName="Assets/Scripts/HexGrid.cs" Line="50" Column="1" />
+      <File FileName="Assets/Scripts/HexMesh.cs" Line="36" Column="24" />
+      <File FileName="Assets/Scripts/HexMetrics.cs" Line="16" Column="35" />
+      <File FileName="Assets/Scripts/HexCoordinates.cs" Line="32" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
